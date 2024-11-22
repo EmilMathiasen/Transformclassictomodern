@@ -1,5 +1,5 @@
 # Convert Sharepoint Sites to modern sites pages
-This is the Beta versions. Handle with care!
+This is the Beta version. Handle with care!
 
 ## Overview
 This is made to transform sites to modern pages
