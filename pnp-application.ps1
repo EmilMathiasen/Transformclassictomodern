@@ -1,5 +1,5 @@
 ### Register pnp application
-## v. 1.0
+## v. 1.1
 ## 
 ## You need to have the mgraph module installed in powershell'
 ##https://pnp.github.io/powershell/articles/registerapplication.html
@@ -34,7 +34,10 @@ function New-PnPApplication {
     }
 
     # Output application details
-    return $app
+    Write-Host "remember to write the down this Application (client) ID:"
+    return @{
+        AppClientID = $app.AppId
+  }
 }
 
 # Run the function
